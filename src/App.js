@@ -34,7 +34,7 @@ const App = () => {
       return (
         <div className="App">
           <Title className="Header">⚫🤖⚔️ Star Wars Characters! ⭐🔫🧑⚔️</Title>
-          <Character props = {characters} />
+          <Character props = {characters}/>
         </div>
       );
     }

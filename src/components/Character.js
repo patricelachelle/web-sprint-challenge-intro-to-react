@@ -24,13 +24,11 @@ function Character(info) {
 
   return (
     <Wrapper>
-      {charInfo.map(data => {
+      {charInfo.map((data, idx) => {
         return (
-         <Wrapper>
-         <Card>  
+         <Card key = {idx}>  
          Name: {data.name}<br />D.O.B: {data.birth_year}<br />Films: {data.films.join(', ')}
          </Card>
-         </Wrapper>
           );
         })}
     </Wrapper>         
