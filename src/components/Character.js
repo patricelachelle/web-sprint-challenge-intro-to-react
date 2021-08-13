@@ -11,7 +11,7 @@ const Card = styled.div`
   font-size: 25px;
   font-weight: bold;
   height: 200px;
-  border: 20px solid green;
+  border: 20px solid #599859;
 `;
 
 const Wrapper = styled.div`
