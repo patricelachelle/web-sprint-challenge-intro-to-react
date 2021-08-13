@@ -81,6 +81,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React is a JavaScript library that is used for building User Interfaces.  React is responsible for what the user sees when using the application. This means it displays or renders to the DOM, things such text, buttons and images. React is also responsible for updating the User Interface whenever it changes. React allows developers to reuse logic in other parts of the UI. React helps in managing complicated User Interfaces. 
+
 1. Describe component state.
+
+A component state holds state data from objects inside the constructor function or a function component that includes the useState function.  It manages data that is changing within our component. Data is received through a prop attribute. Data is stored on state and is saved to a state variable using the state hook.
+
 1. Describe props.
+
+Props are used to pass information held on state from one component to another component. Props are read-only which helps data flow remain organized.  It allows developers to know what changes are being made to the application. Props is short for properties and is an object received as the first argument of a component. Attributes on components get converted into an object called props. Props also make components reusable. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are anything that affects something outside the scope of the function such as gathering data or fetching data from an API, timers, logging, and manually manipulating the DOM. In React side effects can require cleanup or not. The effect hook tells React that a component needs to run or execute some side effect. Side effects can be synced with state or props changes by passing in a dependency array as the second argument to the effect hook. The first argument is a callback function. If the array is not included as the second argument the effect is activate after every change.
